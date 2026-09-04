@@ -1,6 +1,6 @@
 {
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster"
   ],
   "name": "Creature Static Flags Override",
   "single_solution_name": "{name} Static Flags Override",

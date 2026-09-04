@@ -1,7 +1,8 @@
-﻿{
+{
   "id": "access_requirement",
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster",
+    "Trinity343"
   ],
   "name": "Access Requirement",
   "single_solution_name": "Access Requirement",
@@ -103,6 +104,12 @@
           "value_type": "string",
           "can_be_null": true,
           "preferred_width": 175.0
+        },
+        {
+          "name": "Item Level",
+          "value_type": "uint",
+          "zero_is_blank": true,
+          "db_column_name": "item_level"
         }
       ]
     }

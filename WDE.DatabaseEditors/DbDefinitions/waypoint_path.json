@@ -1,6 +1,6 @@
 {
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster"
   ],
   "name": "Waypoint Path",
   "single_solution_name": "Waypoint Path Table",

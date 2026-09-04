@@ -1,7 +1,8 @@
 {
   "id": "gossip_menu_option",
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster",
+    "Trinity343"
   ],
   "name": "Gossip Menu Option",
   "single_solution_name": "{key} gossip menu options",
@@ -18,11 +19,17 @@
     "MenuID",
     "OptionID"
   ],
-  "sort_by": ["MenuID", "OptionID"],
+  "sort_by": [
+    "MenuID",
+    "OptionID"
+  ],
   "commands": [
     {
       "command_id": "creatureTextToBroadcastId",
-      "parameters": ["OptionText", "OptionBroadcastTextID"]
+      "parameters": [
+        "OptionText",
+        "OptionBroadcastTextID"
+      ]
     }
   ],
   "conditions": {
@@ -159,6 +166,18 @@
           "name": "Verified Build",
           "db_column_name": "VerifiedBuild",
           "value_type": "int"
+        },
+        {
+          "name": "Npc Flag",
+          "value_type": "NpcFlagParameter",
+          "default": 1,
+          "db_column_name": "optionnpcflag"
+        },
+        {
+          "name": "Type",
+          "value_type": "GossipOptionTypeParameter",
+          "default": 1,
+          "db_column_name": "optiontype"
         }
       ]
     }
