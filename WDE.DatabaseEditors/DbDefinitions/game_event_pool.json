@@ -1,6 +1,7 @@
 {
   "id": "game_event_pool",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Game Event Pool",

@@ -1,6 +1,7 @@
 {
   "id": "waypoints",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Waypoints",

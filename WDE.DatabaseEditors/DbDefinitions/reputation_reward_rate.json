@@ -1,6 +1,7 @@
 {
   "id": "reputation_reward_rate",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Reputation Reward Rate",

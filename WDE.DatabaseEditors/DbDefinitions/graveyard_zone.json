@@ -1,6 +1,7 @@
 {
   "id": "graveyard_zone",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Graveyard Zone",

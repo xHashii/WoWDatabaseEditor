@@ -1,6 +1,7 @@
 {
   "id": "spell_pet_auras",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spell Pet Auras",

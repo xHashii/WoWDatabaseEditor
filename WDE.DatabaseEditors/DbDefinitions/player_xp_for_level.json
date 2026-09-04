@@ -1,6 +1,7 @@
 {
   "id": "player_xp_for_level",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Player Xp For Level",

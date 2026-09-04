@@ -1,6 +1,7 @@
 {
   "id": "spell_required",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spell Required",

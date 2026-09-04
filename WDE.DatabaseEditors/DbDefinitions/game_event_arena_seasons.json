@@ -1,6 +1,7 @@
 {
   "id": "game_event_arena_seasons",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Game Event Arena Seasons",

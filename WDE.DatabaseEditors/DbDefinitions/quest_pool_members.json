@@ -1,6 +1,7 @@
 {
   "id": "quest_pool_members",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Quest Pool Members",

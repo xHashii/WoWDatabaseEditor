@@ -1,6 +1,7 @@
 {
   "id": "game_event_quest_condition",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Game Event Quest Condition",

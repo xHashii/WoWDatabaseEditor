@@ -1,6 +1,7 @@
 {
   "id": "areatrigger_tavern",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Areatrigger Tavern",

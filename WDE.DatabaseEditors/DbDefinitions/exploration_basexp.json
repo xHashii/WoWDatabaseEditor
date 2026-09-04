@@ -1,6 +1,7 @@
 {
   "id": "exploration_basexp",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Exploration Basexp",

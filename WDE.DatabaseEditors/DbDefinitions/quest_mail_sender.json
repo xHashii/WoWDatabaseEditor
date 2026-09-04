@@ -1,6 +1,7 @@
 {
   "id": "quest_mail_sender",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Quest Mail Sender",

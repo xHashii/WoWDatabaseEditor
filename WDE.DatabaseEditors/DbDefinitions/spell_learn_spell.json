@@ -1,6 +1,7 @@
 {
   "id": "spell_learn_spell",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spell Learn Spell",

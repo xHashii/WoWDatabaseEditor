@@ -1,6 +1,7 @@
 {
   "id": "pet_levelstats",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Pet Level stats",

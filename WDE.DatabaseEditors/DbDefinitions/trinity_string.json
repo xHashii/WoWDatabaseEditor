@@ -1,6 +1,7 @@
 {
   "id": "trinity_string",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Trinity String",

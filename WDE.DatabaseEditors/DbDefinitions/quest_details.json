@@ -1,6 +1,7 @@
 {
   "id": "quest_details",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Quest Details",

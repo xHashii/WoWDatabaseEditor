@@ -1,6 +1,7 @@
 {
   "id": "spell_ranks",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spell Ranks",

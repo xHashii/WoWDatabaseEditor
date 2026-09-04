@@ -1,6 +1,7 @@
 {
   "id": "quest_offer_reward",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Quest Offer Reward",

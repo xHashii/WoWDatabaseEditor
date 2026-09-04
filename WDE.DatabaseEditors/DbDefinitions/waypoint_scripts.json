@@ -1,6 +1,7 @@
 {
   "id": "waypoint_scripts",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Waypoint Scripts",

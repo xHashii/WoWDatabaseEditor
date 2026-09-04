@@ -1,6 +1,7 @@
 {
   "id": "pet_name_generation",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Pet Name Generation",

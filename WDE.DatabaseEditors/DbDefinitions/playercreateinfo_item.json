@@ -1,6 +1,7 @@
 {
   "id": "playercreateinfo_item",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Player createinfo Item",

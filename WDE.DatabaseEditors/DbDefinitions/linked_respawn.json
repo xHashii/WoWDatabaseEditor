@@ -1,6 +1,7 @@
 {
   "id": "linked_respawn",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Linked Respawn",

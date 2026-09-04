@@ -1,6 +1,7 @@
 {
   "id": "player_classlevelstats",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Player class-level stats",

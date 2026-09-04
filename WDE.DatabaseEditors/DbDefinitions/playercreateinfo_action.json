@@ -1,6 +1,7 @@
 {
   "id": "playercreateinfo_action",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Player createinfo Action",

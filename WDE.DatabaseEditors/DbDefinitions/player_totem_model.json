@@ -1,6 +1,7 @@
 {
   "id": "player_totem_model",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Player Totem Model",

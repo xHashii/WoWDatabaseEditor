@@ -1,6 +1,7 @@
 {
   "id": "skill_extra_item_template",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Skill Extra Item Template",
