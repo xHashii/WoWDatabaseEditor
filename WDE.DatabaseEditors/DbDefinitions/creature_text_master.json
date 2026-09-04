@@ -1,7 +1,7 @@
 {
   "id": "creature_text",
   "compatibility": [
-    "TrinityMaster"
+    "TrinityMaster", "Trinity343"
   ],
   "name": "Creature texts",
   "description": "Creature texts that can be spoken via custom creature scripts",

@@ -1,7 +1,7 @@
 {
   "id": "spell_area",
   "compatibility": [
-    "TrinityCata", "TrinityMaster"
+    "TrinityCata", "TrinityMaster", "Trinity343"
   ],
   "name": "Spell area",
   "description": "Spell area table is responsible for applying auras in specific areas or zones",

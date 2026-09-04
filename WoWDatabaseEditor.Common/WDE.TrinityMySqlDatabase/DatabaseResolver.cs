@@ -44,6 +44,7 @@ public class DatabaseResolver
                 break;
             }
             case "TrinityMaster":
+            case "Trinity343":
             {
                 var db= tcMaster.Value;
                 auth = db;

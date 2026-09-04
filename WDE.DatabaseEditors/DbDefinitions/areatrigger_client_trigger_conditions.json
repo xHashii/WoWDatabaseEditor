@@ -1,7 +1,7 @@
 {
   "id": "areatrigger_client_trigger_conditions",
   "compatibility": [
-    "TrinityWrath", "TrinityMaster"
+    "TrinityWrath", "TrinityMaster", "Trinity343"
   ],
   "name": "Client Areatrigger Trigger Conditions",
   "single_solution_name": "{name} areatrigger client trigger conditions",

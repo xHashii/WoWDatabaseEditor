@@ -314,7 +314,7 @@
         ],
         "description": "{pram5value:choose(0|1|2|3):{source}|{source}|[s]Action invoker[/s]|[s]Action invoker[/s]|{source}}: Summon creature {pram1} at {targetid:choose(8):{targetcoords}|{target}'s position, moved by offset {targetcoords}} as summon type {pram2}{pram2value:choose(8):| with duration {pram3} seconds}{pram5value:choose(0|1|2|3):|, as personal spawn||, as personal spawn|}{pram4value:choose(0):| and attack action invoker}",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit,Position",
         "implicit_source": "SMART_TARGET_SELF",
@@ -444,7 +444,7 @@
         "description": "{source}: {pram2value:choose(0):Remove|Add} phasegroup {pram1}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit",
         "target_is_source": true
@@ -484,7 +484,7 @@
         "description": "{source}: Set {pram2value:choose(0):UNIT_FLAGS to {pram1}|UNIT_FLAGS_2 to {pram1value}}",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "target_types": "Creature",
@@ -536,7 +536,7 @@
         "description": "{source}: Remove {pram2value:choose(0):UNIT_FLAGS to {pram1}|UNIT_FLAGS_2 to {pram1value}}",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "target_types": "Creature",
@@ -647,7 +647,7 @@
         ],
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "implicit_source": "SMART_TARGET_SELF",
@@ -693,7 +693,7 @@
         "description": "{source}: Call group event happened from quest {pram1} on owner",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "implicit_source": "SMART_TARGET_ACTION_INVOKER"
@@ -949,7 +949,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_SELF",
         "usable_with_script_types": "Creature,TimedActionList"
@@ -972,7 +972,7 @@
         "tags": [
             "TrinityCata",
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_SELF",
         "usable_with_script_types": "Creature,TimedActionList"
@@ -1084,7 +1084,7 @@
         "description": "{source}: {pram2value:choose(0):Remove phase id {pram1}|Add phase id to {pram1}}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit",
         "target_is_source": true
@@ -1282,7 +1282,7 @@
         "description": "{source}: Start path #{pram2}, {pram1value:choose(0):walk|run}, {pram3value:choose(0):do not repeat|repeat}, {pram6}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "Azeroth"
         ],
         "do_not_propose_target": true,
@@ -1457,7 +1457,7 @@
         "description": "{source}: Install AI Template {pram1}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "Azeroth"
         ],
         "implicit_source": "SMART_TARGET_SELF"
@@ -1479,7 +1479,7 @@
         "description": "{source}: {pram1value:choose(0):Set walk|Set run}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "implicit_source": "SMART_TARGET_SELF",
@@ -1520,7 +1520,7 @@
         "description": "{source}: {pram1value:choose(0):Enable|Disable} gravity",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "implicit_source": "SMART_TARGET_SELF",
@@ -1565,7 +1565,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_SELF",
         "usable_with_script_types": "Creature,TimedActionList"
@@ -1637,7 +1637,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit,Position",
         "implicit_source": "SMART_TARGET_SELF",
@@ -1782,7 +1782,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject",
         "target_is_source": true
@@ -1887,7 +1887,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -1918,7 +1918,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_NONE"
     },
@@ -1930,7 +1930,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_NONE"
     },
@@ -2290,7 +2290,7 @@
         "description": "{source}: Set dynamic flags to {pram1}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "Azeroth"
         ],
         "target_types": "GameObject,Unit",
@@ -2309,7 +2309,7 @@
         "description": "{source}: Add {pram1} dynamic flag",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "target_types": "GameObject,Unit",
@@ -2345,7 +2345,7 @@
         "description": "{source}: Remove {pram1} dynamic flags",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "target_types": "GameObject,Unit",
@@ -2425,7 +2425,7 @@
         ],
         "description": "{source}: Jump to pos {target_position} with speed XY {pram1}, speed Z {pram2}{pram4value:choose(0):| and gravity {pram3}}",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "implicit_source": "SMART_TARGET_SELF",
@@ -2707,7 +2707,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "uses_target_position": true,
@@ -2831,7 +2831,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_SELF",
         "usable_with_script_types": "Creature,TimedActionList"
@@ -2850,7 +2850,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -2869,7 +2869,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "target_is_source": true
@@ -2888,7 +2888,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "target_is_source": true
@@ -2955,7 +2955,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -3002,7 +3002,7 @@
         "description": "{source}: Pause movement for {pram2}sec on movement slot {pram1}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "target_is_source": true
@@ -3030,7 +3030,7 @@
         "description": "{source}: Plays Anim with ID {pram1}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "target_is_source": true
@@ -3048,7 +3048,7 @@
         "description": "{source}: Starts playing scene with Id: {pram1}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Player",
         "target_is_source": true
@@ -3066,7 +3066,7 @@
         "description": "{source}: Stops playing scene with Id: {pram1}",
         "tags": [
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Player",
         "target_is_source": true
@@ -3155,7 +3155,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_NONE"
     },
@@ -3185,7 +3185,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "implicit_source": "SMART_TARGET_ACTION_INVOKER",
@@ -3248,7 +3248,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Creature",
         "target_is_source": true
@@ -3274,7 +3274,7 @@
         "description": "{source}: Plays SpellVisual with SpellVisualKitId: {pram1}, KitType: {pram2} for {pram3} ms",
         "tags": [
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -3305,7 +3305,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_NONE"
     },
@@ -3347,7 +3347,7 @@
         "tags": [
             "TrinityWrath",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_NONE"
     },
@@ -3382,7 +3382,7 @@
         "description": "{source}: Set current health to {pram1}%",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -3399,7 +3399,7 @@
         ],
         "description": "{source}: Start conversation {pram1}",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Player",
         "target_is_source": true
@@ -3417,7 +3417,7 @@
         "description": "{source}: {pram1value:choose(0):Disable Immune to PC|Enable Immune to PC}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -3435,7 +3435,7 @@
         "description": "{source}: {pram1value:choose(0):Disable Immune to NPC|Enable Immune to NPC}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -3453,7 +3453,7 @@
         "description": "{source}: {pram1value:choose(0):Set interactable|Set uninteractable}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "Unit",
         "target_is_source": true
@@ -3487,7 +3487,7 @@
         ],
         "description": "{source}: Add {target} to {pram1}",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit",
         "implicit_source": "SMART_TARGET_SELF"
@@ -3511,7 +3511,7 @@
         ],
         "description": "{source}: Become personal clone for {targetid:choose(8):[p]Action invoker[/p]|{target}}{targetid:choose(8): at position {targetcoords}|} for {pram2} seconds ({pram1})",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit,Position",
         "implicit_source": "SMART_TARGET_SELF",
@@ -3533,7 +3533,7 @@
         ],
         "description": "{pram2value:choose(0):{source}|{target}}: Trigger game event id {pram1} with target {pram2value:choose(0):{target}|{source}}",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "target_types": "GameObject,Unit",
         "implicit_source": "SMART_TARGET_SELF",
@@ -4022,7 +4022,7 @@
         "name_readable": "Wait for previous",
         "description": "       Wait for previous",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "implicit_source": "SMART_TARGET_NONE",
         "flags": "Await",

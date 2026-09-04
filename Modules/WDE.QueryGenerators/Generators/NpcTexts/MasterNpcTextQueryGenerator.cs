@@ -7,7 +7,7 @@ namespace WDE.QueryGenerators.Generators.NpcTexts;
 
 [AutoRegister]
 [SingleInstance]
-[RequiresCore("TrinityMaster")]
+[RequiresCore("TrinityMaster", "Trinity343")]
 public class MasterNpcTextQueryGenerator : BaseInsertQueryProvider<INpcTextFull>, IDeleteQueryProvider<INpcText>
 {
     protected override object Convert(INpcTextFull text)
