@@ -7,7 +7,7 @@ namespace WDE.QueryGenerators.Generators.Gossips;
 
 [AutoRegister]
 [SingleInstance]
-[RequiresCore("TrinityMaster")]
+[RequiresCore("TrinityMaster", "Trinity343")]
 public class TrinityMasterGossipMenuOptionQueryProvider : BaseInsertQueryProvider<IGossipMenuOption>, IDeleteQueryProvider<IGossipMenuOption>
 {
     protected override object Convert(IGossipMenuOption option)

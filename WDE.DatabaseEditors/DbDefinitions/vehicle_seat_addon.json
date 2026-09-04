@@ -2,7 +2,7 @@
   "id": "vehicle_seat_addon",
   "compatibility": [
     "TrinityWrath",
-    "TrinityMaster"
+    "TrinityMaster", "Trinity343"
   ],
   "name": "Vehicle Seat Addon",
   "single_solution_name": "Vehicle Seat Addon Table",

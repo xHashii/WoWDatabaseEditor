@@ -156,7 +156,7 @@ public class TrinityLootQueryGenerator : BaseTrinityLootQueryGenerator
     }
 }
 
-[RequiresCore("TrinityMaster")]
+[RequiresCore("TrinityMaster", "Trinity343")]
 [AutoRegister]
 [SingleInstance]
 public class TrinityMasterLootQueryGenerator : BaseTrinityLootQueryGenerator

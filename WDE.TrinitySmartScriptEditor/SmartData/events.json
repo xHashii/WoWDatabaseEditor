@@ -339,7 +339,7 @@
         "description": "When victim in range {pram1} - {pram2} yards {pram4value:choose(0):(once)|(cooldown {pram3} - {pram4} ms)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "is_timed": true,
@@ -429,7 +429,7 @@
         "description": "On {pram1} unit in line of sight (OOC)",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "invoker": {
@@ -552,7 +552,7 @@
         "description": "When victim health between {pram1} - {pram2} {pram4value:choose(0):(once)|(cooldown {pram3} - {pram4} ms)}",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "is_timed": true,
@@ -629,7 +629,7 @@
         "description": "When friendly unit in range {pram2} yards has lost more than {pram1} hp {pram4value:choose(0):(once)|(cooldown {pram3} - {pram4} ms)}",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "is_timed": true,
@@ -705,7 +705,7 @@
         "description": "When friendly unit in range {pram2} yards has not got aura {pram1} {pram4value:choose(0):(once)|(cooldown {pram3} - {pram4} ms)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "is_timed": true,
@@ -822,7 +822,7 @@
         "description": "When victim has mana between {pram1} - {pram2}% {pram4value:choose(0):(once)|(cooldown {pram3} - {pram4} ms)}",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "is_timed": true,
@@ -1037,7 +1037,7 @@
         "description": "On {pram1} unit in line of sight (in combat){pram3value:choose(0):| (wait {pram3} - {pram4} ms before next event trigger)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "invoker": {
@@ -1162,7 +1162,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "usable_with_script_types": "Creature"
     },
@@ -1412,7 +1412,7 @@
         "tags": [
             "Azeroth",
             "TrinityCata",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "usable_with_script_types": "Creature"
     },
@@ -1855,7 +1855,7 @@
         "description": "On player opened gossip",
         "tags": [
             "TrinityCata",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "Azeroth"
         ],
         "invoker": {
@@ -1932,7 +1932,7 @@
         "description": "When victim is behind me {pram2value:choose(0):(once)|(cooldown {pram1}-{pram2} seconds)}",
         "tags": [
             "Azeroth",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "is_timed": true,
@@ -2069,7 +2069,7 @@
         "description": "When target has HP between {pram1} - {pram2} {pram4value:choose(0):(once)|(cooldown {pram3} - {pram4} ms)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "is_timed": true,
         "invoker": {
@@ -2273,7 +2273,7 @@
         "name_readable": "On scene start",
         "description": "On Scene Start",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "usable_with_script_types": "Scene"
     },
@@ -2283,7 +2283,7 @@
         "name_readable": "On scene canceled",
         "description": "On Scene Cancel",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "usable_with_script_types": "Scene"
     },
@@ -2293,7 +2293,7 @@
         "name_readable": "On scene completed",
         "description": "On Scene Complete",
         "tags": [
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "usable_with_script_types": "Scene"
     },
@@ -2355,7 +2355,7 @@
         "description": "On {pram1value:choose(0):any spell|spell {pram1}} cast {pram2value:choose(0):|(wait {pram2} - {pram3} ms before next trigger)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "invoker": {
             "name": "Caster",
@@ -2390,7 +2390,7 @@
         "description": "On {pram1value:choose(0):any spell|spell {pram1}} failed {pram2value:choose(0):|(wait {pram2} - {pram3} ms before next trigger)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "invoker": {
             "name": "Caster",
@@ -2425,7 +2425,7 @@
         "description": "On {pram1value:choose(0):any spell|spell {pram1}} start {pram2value:choose(0):|(wait {pram2} - {pram3} ms before next trigger)}",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster"
+            "TrinityMaster", "Trinity343"
         ],
         "invoker": {
             "name": "Caster",

@@ -1,7 +1,7 @@
 {
   "id": "vehicle_template_accessory",
   "compatibility": [
-    "TrinityMaster"
+    "TrinityMaster", "Trinity343"
   ],
   "name": "Vehicle Template Accessory",
   "single_solution_name": "{name}'s vehicle accessories",

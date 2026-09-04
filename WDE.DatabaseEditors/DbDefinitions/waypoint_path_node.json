@@ -1,6 +1,6 @@
 {
   "compatibility": [
-    "TrinityMaster"
+    "TrinityMaster", "Trinity343"
   ],
   "name": "Waypoint Path Node",
   "single_solution_name": "{key} Path Waypoints",

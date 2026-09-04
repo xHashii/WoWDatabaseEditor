@@ -11,7 +11,7 @@ namespace WDE.TrinitySmartScriptEditor.Editor
 {
     [AutoRegister]
     [SingleInstance]
-    [RequiresCore("TrinityMaster")]
+    [RequiresCore("TrinityMaster", "Trinity343")]
     public class TrinityMasterEditorFeatures : IEditorFeatures
     {
         public string Name => "TC";

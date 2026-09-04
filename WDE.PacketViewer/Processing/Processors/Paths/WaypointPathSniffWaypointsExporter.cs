@@ -9,7 +9,7 @@ using WowPacketParser.Proto;
 namespace WDE.PacketViewer.Processing.Processors.Paths;
 
 [AutoRegister]
-[RequiresCore("TrinityMaster")]
+[RequiresCore("TrinityMaster", "Trinity343")]
 public class WaypointPathSniffWaypointsExporter : ISniffWaypointsExporter
 {
     private readonly ICachedDatabaseProvider cachedDatabaseProvider;

@@ -436,7 +436,7 @@
 
 	{
 		"id": 26,
-		"tags": ["TrinityCata", "TrinityMaster"],
+		"tags": ["TrinityCata", "TrinityMaster", "Trinity343"],
 		"name": "CONDITION_PHASEID",
 		"name_readable": "In phase",
 		"help": "Condition is met if target is in phase",
@@ -824,7 +824,7 @@
 	},
 	{
 		"id": 48,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_QUEST_OBJECTIVE_PROGRESS",
 		"name_readable": "Has quest objective progress",
 		"parameters": [
@@ -861,7 +861,7 @@
 	},
 	{
 		"id": 49,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_DIFFICULTY_ID",
 		"name_readable": "Is map difficulty",
 		"parameters": [
@@ -894,7 +894,7 @@
 
 	{
 		"id": 51,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_OBJECT_ENTRY_GUID_MASTER",
 		"name_readable": "Is entry/guid/type",
 		"help": "Condition is met if target has given entry, given guid or is given type",
@@ -934,7 +934,7 @@
 
 	{
 		"id": 52,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_TYPE_MASK_MASTER",
 		"name_readable": "Has typemask",
 		"help": "Condition is met if target is of given typemask",
@@ -966,7 +966,7 @@
 
 	{
 		"id": 53,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_BATTLE_PET_COUNT",
 		"name_readable": "Has Battle Pet Count",
 		"help": "Condition is met if target has count of battle pet species",
@@ -990,7 +990,7 @@
 
 	{
 		"id": 54,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_SCENARIO_STEP",
 		"name_readable": "Is at Scenario Step",
 		"help": "Condition is met if target is at Scenario with Step",
@@ -1005,7 +1005,7 @@
 
 	{
 		"id": 55,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_SCENE_IN_PROGRESS",
 		"name_readable": "Has Scene In Progress",
 		"help": "Condition is met if target has a scene playing",
@@ -1020,7 +1020,7 @@
 
 	{
 		"id": 56,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_PLAYER_CONDITION",
 		"name_readable": "Has PlayerCondition met",
 		"help": "Condition is met if target has a player condition met",
@@ -1035,7 +1035,7 @@
 
 	{
 		"id": 57,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_PRIVATE_OBJECT",
 		"name_readable": "Is Private Object",
 		"help": "Condition is met if the target is a private object",
@@ -1044,7 +1044,7 @@
 
 	{
 		"id": 58,
-		"tags": ["TrinityMaster"],
+		"tags": ["TrinityMaster", "Trinity343"],
 		"name": "CONDITION_STRING_ID",
 		"name_readable": "Has StringId",
 		"help": "Condition is met if target has a specific string id",

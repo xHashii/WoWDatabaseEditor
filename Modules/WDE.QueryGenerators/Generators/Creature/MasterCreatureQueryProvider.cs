@@ -7,7 +7,7 @@ using WDE.SqlQueryGenerator;
 namespace WDE.QueryGenerators.Generators.Creature;
 
 [AutoRegister]
-[RequiresCore("TrinityMaster")]
+[RequiresCore("TrinityMaster", "Trinity343")]
 internal class MasterCreatureQueryProvider : BaseInsertQueryProvider<CreatureSpawnModelEssentials>
 {
     protected override object Convert(CreatureSpawnModelEssentials t)

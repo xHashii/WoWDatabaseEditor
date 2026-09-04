@@ -8,7 +8,7 @@ namespace WDE.QueryGenerators.Generators.Gossips;
 
 [AutoRegister]
 [SingleInstance]
-[RequiresCore("TrinityMaster")]
+[RequiresCore("TrinityMaster", "Trinity343")]
 public class MasterCreatureGossipQueryProvider : IUpdateQueryProvider<CreatureGossipUpdate>
 {
     public IQuery Update(CreatureGossipUpdate diff)

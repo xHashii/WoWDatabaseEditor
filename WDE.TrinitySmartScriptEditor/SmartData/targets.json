@@ -434,7 +434,7 @@
         "types": "Unit",
         "tags": [
             "TrinityWrath",
-            "TrinityMaster",
+            "TrinityMaster", "Trinity343",
             "TrinityCata"
         ],
         "usable_with_script_types": "Creature,TimedActionList"

@@ -7,7 +7,7 @@ using WDE.SqlQueryGenerator;
 namespace WDE.QueryGenerators.Generators.Creature;
 
 [AutoRegister]
-[RequiresCore("TrinityMaster", "TrinityCata", "TrinityWrath", "Azeroth", "CMaNGOS-WoTLK", "CMaNGOS-TBC", "CMaNGOS-Classic")]
+[RequiresCore("TrinityMaster", "Trinity343", "TrinityCata", "TrinityWrath", "Azeroth", "CMaNGOS-WoTLK", "CMaNGOS-TBC", "CMaNGOS-Classic")]
 public class TrinityCreatureDiffQueryProvider : IUpdateQueryProvider<CreatureDiff>
 {
     private readonly ICachedDatabaseProvider databaseProvider;

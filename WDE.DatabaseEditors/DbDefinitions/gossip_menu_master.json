@@ -1,7 +1,7 @@
 ﻿{
   "id": "gossip_menu",
   "compatibility": [
-    "TrinityMaster"
+    "TrinityMaster", "Trinity343"
   ],
   "name": "Gossip Menu",
   "single_solution_name": "{key} gossip menu",
