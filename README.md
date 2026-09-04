@@ -42,11 +42,23 @@ That's a fantastic news! There is still a lot to do in the IDE, if you do not kn
 
 **If you want to use Visual Studio, you need Visual Studio 2022**. That's because older Visual Studio version **doesn't** support .NET 6.0!
 
-WoW Database Editor is using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), therefore after you clone, after you pull you have to download submodules:
+WoW Database Editor is using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). **The solution cannot be restored or built without them** — 41 of the 126 projects referenced by `WoWDatabaseEditor.sln` (`Dock`, `AvaloniaEdit`, `Prism.Avalonia`, `DBCD`, `WoWPacketParser`, `Libraries/nodify`, ...) live inside submodules, so if they are missing you will see dozens of projects fail to load in Solution Explorer and NuGet will report that it can neither restore nor update packages.
+
+Clone with submodules in one step:
+
+```
+git clone --recurse-submodules https://github.com/xHashii/WoWDatabaseEditor.git
+```
+
+> **Do not use GitHub's "Download ZIP"** — it does not include submodule contents and will leave the solution broken.
+
+If you already cloned without them (or after pulling), fetch them with:
 
 ```
 git submodule update --init --recursive
 ```
+
+NuGet package sources are declared in the root [`NuGet.config`](NuGet.config) — keep that file, because the pinned Avalonia prerelease builds are not published to nuget.org.
 
 Now you can open the solution in Visual Studio or other C#/.NET IDE and build. Start **LoaderAvalonia** project (this part is important!)
 
