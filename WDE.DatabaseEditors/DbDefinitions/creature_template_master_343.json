@@ -1,6 +1,6 @@
 {
   "compatibility": [
-    "TrinityMaster"
+    "Trinity343"
   ],
   "name": "Creature Template",
   "single_solution_name": "{name} Template Editor",
@@ -76,13 +76,28 @@
           "value_type": "NpcRankParameter"
         },
         {
-          "name": "Creature Immunities Id",
-          "db_column_name": "CreatureImmunitiesId",
-          "value_type": "int"
-        },
-        {
           "name": "Edit difficulties",
           "meta": "tableByKey:creature_template_difficulty;entry"
+        },
+        {
+          "name": "Civilian",
+          "value_type": "uint",
+          "db_column_name": "civilian"
+        },
+        {
+          "name": "Mechanic immune mask",
+          "value_type": "SpellMechanicMaskParameter",
+          "db_column_name": "mechanic_immune_mask"
+        },
+        {
+          "name": "Pet spell ID",
+          "value_type": "uint",
+          "db_column_name": "petspelldataid"
+        },
+        {
+          "name": "School immune mask",
+          "value_type": "SpellSchoolMaskParameter",
+          "db_column_name": "spell_school_immune_mask"
         }
       ]
     },
