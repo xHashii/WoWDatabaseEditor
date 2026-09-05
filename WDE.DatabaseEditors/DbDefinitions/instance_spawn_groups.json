@@ -1,6 +1,7 @@
 {
   "id": "instance_spawn_groups",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Instance Spawn Groups",

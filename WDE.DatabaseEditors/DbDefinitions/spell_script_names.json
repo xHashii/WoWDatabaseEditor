@@ -1,6 +1,7 @@
 {
   "id": "spell_script_names",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spell Script Names",

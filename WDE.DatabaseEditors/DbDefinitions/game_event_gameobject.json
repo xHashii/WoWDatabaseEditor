@@ -1,6 +1,7 @@
 {
   "id": "game_event_gameobject",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Game Event Gameobject",

@@ -1,6 +1,7 @@
 {
   "id": "areatrigger_scripts",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Areatrigger Scripts",

@@ -1,6 +1,7 @@
 {
   "id": "battlemaster_entry",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Battlemaster Entry",

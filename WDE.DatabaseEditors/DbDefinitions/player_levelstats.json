@@ -1,6 +1,7 @@
 {
   "id": "player_levelstats",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Player Level Stats",

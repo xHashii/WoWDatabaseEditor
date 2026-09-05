@@ -1,7 +1,8 @@
 {
   "id": "vehicle_template_accessory",
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster",
+    "Trinity343"
   ],
   "name": "Vehicle Template Accessory",
   "single_solution_name": "{name}'s vehicle accessories",
@@ -54,12 +55,6 @@
           "db_column_name": "summontimer",
           "value_type": "uint",
           "default": 30000
-        },
-        {
-          "name": "Ride Spell",
-          "db_column_name": "RideSpellID",
-          "value_type": "SpellParameter",
-          "can_be_null": true
         },
         {
           "name": "Comment",

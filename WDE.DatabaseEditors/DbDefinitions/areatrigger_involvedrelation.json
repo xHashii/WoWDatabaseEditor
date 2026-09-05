@@ -1,6 +1,7 @@
 {
   "id": "areatrigger_involvedrelation",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Areatrigger Involvedrelation",

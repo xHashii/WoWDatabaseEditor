@@ -1,6 +1,7 @@
 {
   "id": "areatrigger_teleport",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Areatrigger Teleport",

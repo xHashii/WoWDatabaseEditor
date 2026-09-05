@@ -1,7 +1,11 @@
 {
   "id": "creature_queststarter",
   "compatibility": [
-    "TrinityWrath", "Azeroth", "TrinityMaster", "Trinity343", "TrinityCata"
+    "TrinityWrath",
+    "Azeroth",
+    "TrinityMaster",
+    "Trinity343",
+    "TrinityCata"
   ],
   "name": "Creature Quest Starter",
   "single_solution_name": "Creature {name} quest starter",
@@ -32,6 +36,11 @@
           "db_column_name": "quest",
           "value_type": "QuestParameter",
           "preferred_width": 300
+        },
+        {
+          "name": "Verified Build",
+          "value_type": "int",
+          "db_column_name": "verifiedbuild"
         }
       ]
     }

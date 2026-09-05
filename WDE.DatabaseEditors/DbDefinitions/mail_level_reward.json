@@ -1,6 +1,7 @@
 {
   "id": "mail_level_reward",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Mail Level Reward",

@@ -1,6 +1,7 @@
 {
   "id": "gameobject_overrides",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Gameobject Overrides",

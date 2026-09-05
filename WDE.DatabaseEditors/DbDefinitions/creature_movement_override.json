@@ -1,6 +1,7 @@
 {
   "id": "creature_movement_override",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Creature Movement Override",

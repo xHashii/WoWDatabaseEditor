@@ -1,6 +1,7 @@
 {
   "id": "pool_template",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Pool Template",

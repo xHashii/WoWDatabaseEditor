@@ -1,6 +1,7 @@
 {
   "id": "skill_discovery_template",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Skill Discovery Template",

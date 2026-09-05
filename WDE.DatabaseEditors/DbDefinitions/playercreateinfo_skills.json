@@ -1,6 +1,7 @@
 {
   "id": "playercreateinfo_skills",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Player createinfo Skills",

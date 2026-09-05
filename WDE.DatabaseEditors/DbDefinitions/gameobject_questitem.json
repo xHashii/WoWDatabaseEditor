@@ -1,6 +1,7 @@
 {
   "id": "gameobject_questitem",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Gameobject Quest Item",

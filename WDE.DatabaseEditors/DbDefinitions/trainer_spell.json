@@ -1,6 +1,7 @@
 {
   "id": "trainer_spell",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Trainer Spell",

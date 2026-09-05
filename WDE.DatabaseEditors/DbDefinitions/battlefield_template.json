@@ -1,6 +1,7 @@
 {
   "id": "battlefield_template",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Battlefield Template",

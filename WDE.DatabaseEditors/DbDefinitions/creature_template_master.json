@@ -1,6 +1,6 @@
 {
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster"
   ],
   "name": "Creature Template",
   "single_solution_name": "{name} Template Editor",

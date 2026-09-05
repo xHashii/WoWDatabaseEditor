@@ -1,6 +1,7 @@
 {
   "id": "access_requirement",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Access Requirement",

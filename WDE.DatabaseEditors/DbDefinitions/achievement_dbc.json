@@ -1,6 +1,7 @@
 {
   "id": "achievement_dbc",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Achievement Dbc",

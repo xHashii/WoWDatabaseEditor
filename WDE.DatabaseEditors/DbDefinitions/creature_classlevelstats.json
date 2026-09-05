@@ -1,6 +1,7 @@
 {
   "id": "creature_classlevelstats",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Creature Classlevelstats",

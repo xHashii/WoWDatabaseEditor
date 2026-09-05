@@ -1,7 +1,8 @@
 {
   "id": "creature",
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster",
+    "Trinity343"
   ],
   "name": "Creature Spawns",
   "single_solution_name": "Creature Table",
@@ -111,12 +112,6 @@
           "zero_is_blank": true
         },
         {
-          "name": "Cur Health Pct",
-          "db_column_name": "curHealthPct",
-          "value_type": "uint",
-          "default": 100
-        },
-        {
           "name": "Npc flag",
           "db_column_name": "npcflag",
           "value_type": "NpcFlagParameter",
@@ -154,6 +149,19 @@
           "name": "Verified Build",
           "db_column_name": "VerifiedBuild",
           "value_type": "int"
+        },
+        {
+          "name": "Current health",
+          "value_type": "uint",
+          "zero_is_blank": true,
+          "default": 1,
+          "db_column_name": "curhealth"
+        },
+        {
+          "name": "Current mana",
+          "value_type": "uint",
+          "zero_is_blank": true,
+          "db_column_name": "curmana"
         }
       ]
     },

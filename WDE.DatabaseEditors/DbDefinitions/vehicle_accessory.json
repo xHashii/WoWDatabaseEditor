@@ -1,6 +1,7 @@
 {
   "id": "vehicle_accessory",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Vehicle Accessory",

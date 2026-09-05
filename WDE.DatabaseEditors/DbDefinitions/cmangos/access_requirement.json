@@ -1,7 +1,8 @@
 {
   "id": "access_requirement",
   "compatibility": [
-    "CMaNGOS-WoTLK"
+    "CMaNGOS-WoTLK",
+    "Trinity343"
   ],
   "name": "Access Requirement",
   "description": "Controls requirements for a map",

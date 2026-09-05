@@ -1,6 +1,7 @@
 {
   "id": "game_tele",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Game Tele",

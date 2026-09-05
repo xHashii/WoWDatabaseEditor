@@ -1,7 +1,10 @@
 {
   "id": "spell_conditions",
   "compatibility": [
-    "TrinityWrath", "TrinityMaster", "Trinity343", "Azeroth", "TrinityCata"
+    "TrinityWrath",
+    "TrinityMaster",
+    "Azeroth",
+    "TrinityCata"
   ],
   "name": "Spell conditions",
   "single_solution_name": "{name} spell conditions",

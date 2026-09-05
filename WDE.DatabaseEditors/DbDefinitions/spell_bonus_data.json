@@ -1,6 +1,7 @@
 {
   "id": "spell_bonus_data",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spell Bonus Data",

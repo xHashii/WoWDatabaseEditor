@@ -1,6 +1,7 @@
 {
   "compatibility": [
-    "TrinityMaster", "Trinity343"
+    "TrinityMaster",
+    "Trinity343"
   ],
   "name": "Creature Difficulty",
   "single_solution_name": "{name} Template Difficulty",
@@ -30,24 +31,6 @@
           "name": "Difficulty ID",
           "db_column_name": "DifficultyID",
           "value_type": "DifficultyParameter"
-        },
-        {
-          "name": "Level Scaling Delta Min",
-          "db_column_name": "LevelScalingDeltaMin",
-          "value_type": "int",
-          "preferred_width": 146.0
-        },
-        {
-          "name": "Level Scaling Delta Max",
-          "db_column_name": "LevelScalingDeltaMax",
-          "value_type": "int",
-          "preferred_width": 150.0
-        },
-        {
-          "name": "Content Tuning ID",
-          "db_column_name": "ContentTuningID",
-          "value_type": "int",
-          "preferred_width": 123.0
         },
         {
           "name": "Health Scaling Expansion",
@@ -179,6 +162,16 @@
           "name": "Verified Build",
           "db_column_name": "VerifiedBuild",
           "value_type": "int"
+        },
+        {
+          "name": "Max level",
+          "value_type": "uint",
+          "db_column_name": "maxlevel"
+        },
+        {
+          "name": "Min level",
+          "value_type": "uint",
+          "db_column_name": "minlevel"
         }
       ]
     }

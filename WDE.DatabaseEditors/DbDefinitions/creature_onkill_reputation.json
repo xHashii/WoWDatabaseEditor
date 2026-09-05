@@ -1,6 +1,7 @@
 {
   "id": "creature_onkill_reputation",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Creature On Kill Reputation",

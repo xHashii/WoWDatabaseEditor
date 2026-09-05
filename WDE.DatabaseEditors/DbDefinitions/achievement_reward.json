@@ -1,6 +1,7 @@
 {
   "id": "achievement_reward",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "Achievement Reward",

@@ -1,6 +1,7 @@
 {
   "id": "spawn_group",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Spawn Group",

@@ -1,6 +1,7 @@
 {
   "id": "lfg_dungeon_rewards",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath"
   ],
   "name": "LFG Dungeon Rewards",

@@ -1,6 +1,7 @@
 {
   "id": "skill_fishing_base_level",
   "compatibility": [
+    "Trinity343",
     "TrinityWrath", "TrinityCata"
   ],
   "name": "Skill Fishing Base Level",
